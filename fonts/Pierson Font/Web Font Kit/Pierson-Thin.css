@@ -1,0 +1,12 @@
+/* Webfont: Pierson-Thin */@font-face {
+    font-family: 'PiersonThin';
+    src: url('Pierson-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Pierson-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Pierson-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Pierson-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Pierson-Thin.svg#Pierson-Thin') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

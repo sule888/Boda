@@ -1,0 +1,12 @@
+/* Webfont: Pierson-Regular */@font-face {
+    font-family: 'Pierson';
+    src: url('Pierson-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Pierson-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Pierson-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Pierson-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Pierson-Regular.svg#Pierson-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
