@@ -249,10 +249,12 @@ strong {
   margin: 50px 0;
 }
 .flex-cont-ubi-cod-vestim {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   margin: 100px 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  align-items: start;
 }
 .flex-cont-item {
   display: flex;
@@ -260,6 +262,7 @@ strong {
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
 }
 .icon-vestim-ubicacion {
   width: 100px;
@@ -374,4 +377,9 @@ strong {
   .flex-cont {
     grid-template-columns: 1fr; /* Cambiar a una columna en pantallas más pequeñas */
   }
+}
+.regalos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
