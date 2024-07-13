@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const fechaBoda = new Date("2024-07-13T00:00:00");
+  const fechaBoda = new Date("2024-07-13T20:00:00");
   const diasRestantesElement = document.getElementById("dias-restantes");
   const horasRestantesElement = document.getElementById("horas-restantes");
   const minutosRestantesElement = document.getElementById("minutos-restantes");
